@@ -1,0 +1,100 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #24292E;
+    overflow: hidden;
+}
+
+.wrapper{
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 8px 10px 39px 0px rgba(85,85,85,0.6);
+    -moz-box-shadow: 8px 10px 39px 0px rgba(85,85,85,0.6);
+    box-shadow: 8px 10px 39px 0px rgba(85,85,85,0.6);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.box{
+    background-color: #000;
+    flex-basis: 33%;
+    height: 33%;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: .1s;
+    
+}
+
+.box:hover{
+    background-color: #111;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+div.upperWrapper{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h2{
+    color: gray;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 2rem;
+}
+
+span.wins{
+    color: rgba(0, 128, 0, 0.507);
+}
+
+span.loses{
+    color: rgba(255, 0, 0, 0.493);
+}
+
+span.draws{
+    color: rgba(128, 128, 128, 0.507);
+}
+
+section{
+    text-align: center;
+}
+
+button.restart{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: gray;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.restart:hover{
+    background-color: black;
+    color: white;
+}
